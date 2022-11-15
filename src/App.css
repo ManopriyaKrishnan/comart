@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.SearchResultContent{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  margin:3rem 13rem;
+
+}
+
+.Flex{
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
